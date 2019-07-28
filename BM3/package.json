@@ -1,0 +1,19 @@
+{
+  "name": "bm3",
+  "version": "1.0.0",
+  "description": "Ranqueamento online da CAG01  ",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore *.marko.js"
+  },
+  "author": "William Felipe Goncalves",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3",
+    "marko": "4.13.4-1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}

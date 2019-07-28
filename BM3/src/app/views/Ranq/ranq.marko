@@ -1,0 +1,37 @@
+
+<html lang="pt-br">
+    <head>
+
+        <title>Aplicativo health track fiap</title>
+        <meta charset="utf-8">   
+        <!-- guarda o formato de caracteres utf-8 universal-->
+    </head>
+
+    <body>
+        <table class="table table-striped">
+            <caption> Ranqueamento </caption>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Descrição</th>
+                        <th>Referência</th>
+                        <th>Pontuação</th>
+                            
+                    </tr>              
+                </thead>
+
+                <tbody>
+
+                    <tr for (ranq in data.ranquea)>
+                        <td> ${ranq.TAG}</td>        
+                        <td> ${ranq.Descricao}</td> 
+                        <td> ${ranq.Referencia}</td> 
+                        <td> ${ranq.Pontuacao}</td>  
+                    </tr>
+
+                </tbody>
+
+        </table>    
+    </body>
+
+</html>    
